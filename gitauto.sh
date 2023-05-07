@@ -1,5 +1,6 @@
 #!/bin/bash
-DATA ="$(date +%Y%d%m%H%M)"
+NOW="$(date +"%m-%d-%Y")"
+
 $(git add .)
 sleep 3
 $(git commit -a -m "Alterado $DATA")
