@@ -1,10 +1,9 @@
 #!/bin/bash
 
-HORA=$(date +%H)
-MIN=$(date +%M)
+DATA =$(date +%Y%d%m%H%M)
 
 $(git add .)
 sleep 3
-$(git commit -a -m "Alterado $(date +%Y%d%m%H%M)")
+$(git commit -a -m "Alterado $DATA")
 sleep 3
 $(git push)
