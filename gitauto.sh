@@ -5,6 +5,6 @@ MIN=$(date +%M)
 
 $(git add .)
 sleep 3
-$(git commit -a -m "Alterado $(date +%Y%m%d%H%M)")
+$(git commit -a -m "Alterado date +%Y%d%m%H%M")
 sleep 3
 $(git push)
