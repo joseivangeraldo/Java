@@ -24,6 +24,6 @@ else
     echo "ERROR NESTA PARTE"
     exit 1
 fi
-$(git commit -a -m "Alterado \"$NOW\"")
+$(git commit -a -m "$NOW")
 sleep 3
 $(git push)
