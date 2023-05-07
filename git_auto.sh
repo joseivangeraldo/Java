@@ -1,6 +1,6 @@
 #!/bin/bash
 ########################################################################################
-# Arquivo para automatizar funções do git commit                                       #
+# Arquivo para automatizar : git commit, git add, git push                             #
 #									                                                   #	
 # Nome: git_auto.sh							                                           #
 #									                                                   #
