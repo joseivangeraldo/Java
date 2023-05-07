@@ -24,6 +24,7 @@ else
     echo "ERROR NESTA PARTE"
     exit 1
 fi
-$(git commit -a -m "$NOW")
+# add commit
+git commit -m "$NOW"
 sleep 3
-$(git push)
+git push
