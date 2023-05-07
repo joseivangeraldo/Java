@@ -2,3 +2,5 @@
 @joseivangeraldo ➜ /workspaces/Java/work (main) $ javac First.java
 #############EXECUTAR ######################
 java First
+
+#### READ DATA #####3
