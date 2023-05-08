@@ -22,3 +22,5 @@ sleep 3
 git commit -m "$NOW"
 sleep 3
 git push
+sleep 3
+git status
