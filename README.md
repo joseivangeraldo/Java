@@ -36,22 +36,20 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Obs: Estes exemplos foram formulados totalmente em um ambiente computacional dentro da nuvem. Particulamente no codespace do Github e Gitpod. Na atualidade são as melhores plataformas para isto, balanceando os custos e beneficios. Se você não conhece ou não sabe como acessa-los, [clique aqui.](https://docs.github.com/en/codespaces/developing-in-codespaces/opening-an-existing-codespace/)
 
 No codespace abra um terminal ou teclas use <kbd>Ctrl</kbd> + <kbd>'</kbd>
-Para criar os códigos fonte, via terminaal
+Para criar os códigos fonte, via terminal, é só digitar
 
+```bash
+$ touch meuPrimeiro.java
 ```
-$ docker images
-```
+Vai abrir o editor do Visual Studio, depois é só digitar conforme a necessidade do programa. Também pode ser aberto na janela gráfica, através  dos menus da barra superior.
+Após aberto e salvo, pode ser feita a compilação pelo editor javac:
 
-Se não tiver nenhuma imagem docker será mostrado uma tabela vazia:
-
+```bash
+$ javac meuPrimeiro.java 
 ```
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+Se não apresentar nenhum erro, pode ser executado pelo comando:
 ```
-
-Após crie a pasta de trabalho:
-
-```
-$ mkdir LampServer
+$ Java meuPrimeiro
 ```
 
 O nome do diretório pode ser este ou qualquer outro de sua preferência.
