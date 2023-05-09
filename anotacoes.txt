@@ -5,3 +5,6 @@ java First
 
 @joseivangeraldo ➜ /workspaces/Java/work (main) $ javap java.util.Scanner  VERIFICAR METODOS DA CLASSE
 javap java.lang.Integer
+
+11111111111111111111111111111011    complemento de 2 numero -5
+@joseivangeraldo ➜ /workspaces/Java/work (main) $
