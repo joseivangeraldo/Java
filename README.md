@@ -53,43 +53,17 @@ $ Java meuPrimeiro
 ```
 Abaixo um exemplo de um arquivo basico:
 ```java
-services:
-  db:
-    image: mysql:latest
-    environment:
-      MYSQL_DATABASE: lamp_demo
-      MYSQL_USER: lamp_demo
-      MYSQL_PASSWORD: password
-      MYSQL_ALLOW_EMPTY_PASSWORD: 1
-    volumes:
-      - "./db:/docker-entrypoint-initdb.d"
-    networks:
-      - lamp-docker
-  www:
-    depends_on:
-      - db
-    image: php:8.1.1-apache
-    volumes:
-    - "/workspaces/ServerPHP_Mysql/LampServer/WebPage:/var/www/html"
-    ports:
-      - 80:80
-      - 443:443
-    networks:
-      - lamp-docker
-  phpmyadmin:
-    depends_on:
-      - db
-    image: phpmyadmin/phpmyadmin
-    ports:
-      - 8001:80
-    environment:
-      - PMA_HOST=db
-      - PMA_PORT=3306
-    networks:
-      - lamp-docker
-networks:
-  lamp-docker:
-    driver: bridge
+import java.lang.*;
+
+public class First
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!!");// exibir um texto com quebra de linha
+        System.out.println(args[0]);// exibir texto apos linnha de comando
+        System.out.println(args[1]);// exibir texto 2 apos linha de comando
+    }
+}
 ```
 Tomar muito cuidado com a digitação, pois ele necessita ser fortemente idêntico, então espaços, quebra de linhas, devem ser idênticos, se necessário é melhor instalar a extensão para docker compose que o Visual Studio possui. Na parte 'volumes:' foi colocado o caminho absoluto do workspace, é mais seguro e evita riscos de conflitos.
 Pode ser que se depare com erros em virtude de espaços a mais ou alguma formatação incorreta.
