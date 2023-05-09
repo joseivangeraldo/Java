@@ -1,35 +1,4 @@
-#include LAMP Server Apache: Montado em um Docker Container
-[Tutorial YouTube](#)
-
-### Recursos Necessarios
-
-- [Docker Hub:](https://hub.docker.com/)
-- [Apache Docker Imagem oficial:](https://hub.docker.com/_/httpd)
-- [Mysql Docker imagem oficial:](https://hub.docker.com/_/mysql)
-- [Documentação PHP:](https://www.php.net)
-- [PHPMyadmin Docker imagem oficial:](https://hub.docker.com/_/phpmyadmin)
-
-<a name="ancora"></a>
-
-# Indice
-
-- [Tecnologia](#tecnologia)
-- [Instação do Ambiente](#instalacao)
-- [Acrescentar editar arquivos](#acrescentareditar)
-- [deletar docker](#deletar)
-
-### <a id="tecnologia"> 🛠 Tecnologias</a>
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Apache](https://httpd.apache.org/)
-- [CSS](https://www.w3.org/Style/CSS/Overview.en.html/)
-- [Docker](https://www.docker.com/)
-- [Docker Hub](https://hub.docker.com/)
-- [HTML](https://www.w3.org/html/)
-- [MySql](https://www.mysql.com/)
-- [Visual Studio](<https://expo.io](https://code.visualstudio.com/docs)/>)
-  > [Topo](#ancora)
+# Pastas de Trabalho para arquivos java: 
 
 ## <a id="instalacao">🔨 Instalação do Ambiente</a>
 
