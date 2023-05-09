@@ -51,19 +51,8 @@ Se não apresentar nenhum erro, pode ser executado pelo comando:
 ```
 $ Java meuPrimeiro
 ```
-
-O nome do diretório pode ser este ou qualquer outro de sua preferência.
-Depois entre neste diretório:
-```shell
-$ cd LampServer
-```
-Crie um arquivo chamado docker-compose.yml. Tem de ter este nome, idêntico assim, pois se for diferente não funcionará a geração da imagem. O Codespace GitHub e Gitpod já vem com Visual Studio configurado, então para criação e edição é só digitar:
-
-```shell
-$ code docker-compose.yml
-```
-O docker compose, que orquestrará todas as dependencias do ambiente, e montará todas as imagens necessárias para a rodar as imagens Docker.Apache, PHP, MySql e PHPMyadmin. Sintaxe do arquivo:
-```YAML
+Abaixo um exemplo de um arquivo basico:
+```java
 services:
   db:
     image: mysql:latest
