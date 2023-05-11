@@ -11,7 +11,6 @@
 # Será excuta a adição o comitt com o comentario da data da alteração,horas e minutos  #
 #				                                                     				   #
 # Uso: ./git_auto.sh 						                                           #
-#									                                                   #
 ########################################################################################
 NOW=$(date +'%d/%m/%Y %H:%M:%S')
 #add arquivo
