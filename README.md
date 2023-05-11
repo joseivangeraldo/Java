@@ -41,5 +41,3 @@ Aqui somente para traçar as diretrizes iniciais básicas.
 # Clone este repositório$ g <https://github.com/joseivangeraldo/ServerPHP_Mysql>
 ```
 
-Copyright (c) <2023> <José Ivan G Silva>
-
