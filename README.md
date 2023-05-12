@@ -38,6 +38,6 @@ Aqui somente para traçar as diretrizes iniciais básicas.
 
 - Você pode clonar este repositório:
 ```bash
-# Clone este repositório$ g <https://github.com/joseivangeraldo/ServerPHP_Mysql>
+# Clone <https://github.com/joseivangeraldo/Java>
 ```
 
