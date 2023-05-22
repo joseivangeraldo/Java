@@ -9,3 +9,5 @@ javap java.lang.Integer
 11111111111111111111111111111011    complemento de 2 numero -5
 @joseivangeraldo ➜ /workspaces/Java/work (main) $
 Padrão IEEE 754 para Aritmética Binária de Ponto Flutuante 
+
+System.out.println(String.format("%s",Integer.toBinaryString(y)));
