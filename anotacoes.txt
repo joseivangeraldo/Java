@@ -11,3 +11,9 @@ javap java.lang.Integer
 Padrão IEEE 754 para Aritmética Binária de Ponto Flutuante 
 
 System.out.println(String.format("%s",Integer.toBinaryString(y)));
+
+SWAPPING TWO VALUES WITH XOR OPERATOR:
+        int a=10, b=15;        
+        a=a^b;
+        b=a^b;
+        a=a^b;
