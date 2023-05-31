@@ -2,7 +2,6 @@
 @joseivangeraldo ➜ /workspaces/Java/work (main) $ javac First.java
 #############EXECUTAR ######################
 java First
-
 String are imutables
 
 @joseivangeraldo ➜ /workspaces/Java/work (main) $ javap java.util.Scanner  VERIFICAR METODOS DA CLASSE
