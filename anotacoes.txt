@@ -3,6 +3,8 @@
 #############EXECUTAR ######################
 java First
 
+String are imutables
+
 @joseivangeraldo ➜ /workspaces/Java/work (main) $ javap java.util.Scanner  VERIFICAR METODOS DA CLASSE
 javap java.lang.Integer
 
