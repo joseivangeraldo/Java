@@ -14,12 +14,12 @@
 ########################################################################################
 NOW=$(date +'%d/%m/%Y %H:%M:%S')
 #add arquivo
-git add .
-sleep 3
+git add .  ## prepara a adção de arquivos no repositório
+sleep 3  ##tempo de espera
 
 # add comentarios
-git commit -m "$NOW"
-sleep 3
-git push
-sleep 3
-git status
+git commit -m "$NOW" ## commit com o comentario de data atual e hora padrão
+sleep 3  ##tempo de espera
+git push ##Publica no repositorio
+sleep 3  ##tempo de espera
+git status  ##só exibe o status se correu tudo bem
