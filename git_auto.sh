@@ -8,8 +8,10 @@
 # Data: 05/07/2023							                                           #
 #									                                                   #
 # Descrição: Ao terminar a fase do projeto executar na pasta raiz do diretorio,        #
-# Será excuta a adição o comitt com o comentario da data da alteração,horas e minutos  #
-#				                                                     				   #
+# Será executado a adição, o comitt com o comentario da data da alteração,horas e      #
+# minutos                                                                              #
+# Ao copiar na sua pasta raiz é necessario autorizar a execução: 			           #
+# chmod +x git_auto.sh                                                                 #
 # Uso: ./git_auto.sh 						                                           #
 ########################################################################################
 NOW=$(date +'%d/%m/%Y %H:%M:%S')
