@@ -1,0 +1,10 @@
+javac GradeBook.java GradeBookTest.java
+
+para compilar ambas as classes de uma só vez. Se o diretório que contém o aplicativo incluir somente os arquivos desse aplicativo, você pode
+compilar todas as classes no diretório com o comando:
+javac *.java
+
+VIEWING IN GOOGLE CLOULD CONSOLE:
+
+cd `mktemp -d` && echo '<html><body>Hello World</body></html>' >./index.html && python -m http.server 8080
+ivan_geraldo@cloudshell:~/joseivangeraldo.github.io (myproject74067)$ python -m http.server 8080

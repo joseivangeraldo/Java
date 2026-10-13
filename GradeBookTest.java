@@ -1,15 +1,18 @@
-// Figura 3.2: GradeBookTest.java
-// Criando um objeto GradeBook e chamando seu método displayMessage.
+// Figura 3.11: GradeBookTest.java
+// construtor GradeBook utilizado para especificar o nome
+// do curso na hora em que cada objeto GradeBook é criado.
 
 public class GradeBookTest
 {
-// método main inicia a execução de programa
-public static void main(String[] args)
-{
-// cria um objeto GradeBook e o atribui a myGradeBook
-GradeBook myGradeBook = new GradeBook();
+    // método main inicia a execução de programa
+    public static void main(String[] args)
+    {
+        // cria objeto GradeBook
+        GradeBook gradeBook1 = new GradeBook("CS101 Introduction to Java Programming");
+        GradeBook gradeBook2 = new GradeBook("CS102 Data Structures in Java");
 
-// chama método displayMessage de myGradeBook
-myGradeBook.displayMessage();
-} // fim de main
+        // exibe valor inicial de courseName para cada GradeBook
+        System.out.printf("gradeBook1 course name is: %s\n",gradeBook1.getCourseName());
+        System.out.printf("gradeBook2 course name is: %s\n",gradeBook2.getCourseName());
+    } // fim de main
 } // fim da classe GradeBookTest
