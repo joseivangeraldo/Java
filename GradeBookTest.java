@@ -1,5 +1,5 @@
 // Figura: GradeBookTest.java
-// Cria o objeto GradeBook, insere notas e exibe relatório de notas.
+// Cria o objeto GradeBoo insere notas e exibe relatório de notas.
 
  public class GradeBookTest
  {

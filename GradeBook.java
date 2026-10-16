@@ -100,18 +100,15 @@
  System.out.println( "\nGrade Report:" );
 
  // se usuário inseriu pelo menos uma nota...
- if ( gradeCounter !=  )
+ if ( gradeCounter !=  0 )
  {
  // calcula a média de todas as notas inseridas
  double average = (double) total / gradeCounter;
 
-
-. A estrutura de seleção múltipla switch 
-
  // gera a saída de resumo de resultados
  System.out.printf( "Total of the %d grades entered is %d\n",
  gradeCounter, total );
- System.out.printf( "Class average is %.f\n", average );
+ System.out.printf( "Class average is %.2f\n", average );
  System.out.printf( "%s\n%s%d\n%s%d\n%s%d\n%s%d\n%s%d\n",
  "Number of students who received each grade:",
  "A: ", aCount, // exibe número de notas A
