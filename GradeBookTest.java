@@ -1,16 +1,17 @@
-// Figura 4.7: GradeBookTest.java
-// Cria o objeto da classe GradeBook e invoca seu método
-// determineClassAverage
-public class GradeBookTest
-{
-public static void main( String[] args )
-{
-// cria o objeto myGradeBookda classe GradeBook e
-// passa o nome de cursor para o construtor
-GradeBook myGradeBook = new GradeBook(
-"CS101 Introduction to Java Programming" );
+// Figura: GradeBookTest.java
+// Cria o objeto GradeBook, insere notas e exibe relatório de notas.
 
-myGradeBook.displayMessage(); // exibe a mensagem welcome
-myGradeBook.determineClassAverage(); // calcula a média das 10 notas
-} // fim de main
-} // fim da classe GradeBookTest
+ public class GradeBookTest
+ {
+ public static void main(String[] args)
+ {
+ // cria o objeto myGradeBookda classe GradeBook e
+
+ // passa o nome de cursor para o construtor
+ GradeBook myGradeBook = new GradeBook("CS Introduction to Java Programming");
+
+ myGradeBook.displayMessage(); // exibe a mensagem welcome
+ myGradeBook.inputGrades(); // lê notas fornecidas pelo usuário
+ myGradeBook.displayGradeReport(); // exibe relatório baseado em notas
+ } // fim de main
+ } // fim da classe GradeBookTest
