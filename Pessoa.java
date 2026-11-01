@@ -2,23 +2,22 @@ public class Pessoa
 {
 	public String nome;
 	public String cpf;
-	public Date data_nascimento;
+	public String data_nascimento;
 
-	public Pessoa(String _nome, String _cpf, Date _data)
+	public Pessoa(String _nome, String _cpf, String _data)
 {
 	this.nome = _nome;
 	this.cpf = _cpf;
 	this.data_nascimento = _data;
 }
-    public String DisplayNome()
+    public void DisplayNome()
     {
-        return nome;
-    }
+    System.out.printf("%s\n", nome);    }
 }
 
 public class Aluno extends Pessoa
 {
-    public Aluno(String _nome, String _cpf, Date _data)
+    public Aluno(String _nome, String _cpf, String _data)
     {
         super(_nome, _cpf, _data);
     }
@@ -27,7 +26,7 @@ public class Aluno extends Pessoa
 
 public class Professor extends Pessoa
 {
-    public Professor(String _nome, String _cpf, Date _data)
+    public Professor(String _nome, String _cpf, String _data)
     {
         super(_nome, _cpf, _data);
     }
@@ -37,7 +36,7 @@ public class Professor extends Pessoa
 
 public class Funcionario extends Pessoa
 {
-    public Funcionario(String _nome, String _cpf, Date _data)
+    public Funcionario(String _nome, String _cpf, String _data)
     {
         super(_nome, _cpf, _data);
     }
