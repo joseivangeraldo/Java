@@ -9,9 +9,18 @@ public class Pessoa2 {
         this.idade = idade;
     }
 
+    public class Aluno extends Pessoa
+{
+    public Aluno(String _nome, String idade)
+    {
+        super(_nome, _idade);
+    }
+     public String matricula;
+}
+
     // Métodos (comportamentos ou ações)
     public void saudacao() {
-        System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
+        System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos."+ "matricula nmro" + matricula);
     }
 
     // Método principal para testar a criação de objetos
@@ -19,5 +28,6 @@ public class Pessoa2 {
         // Criando (instanciando) um objeto a partir da classe
         Pessoa2 pessoa1 = new Pessoa2("João", 30);
         pessoa1.saudacao(); // Chamando o método
+        
     }
 }
