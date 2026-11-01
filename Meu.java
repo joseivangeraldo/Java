@@ -1,10 +1,10 @@
 public class Meu{
     private String nome;
     private String sobrenome;
-    private int cpf;
+    private String cpf;
     
 
-    public Meu(String name, String surname, int _cpf){
+    public Meu(String name, String surname, String _cpf){
         nome = name;
         sobrenome = surname;
         cpf = _cpf;
@@ -18,7 +18,7 @@ public class Meu{
         sobrenome = surname;
     }
 
-    public void setCpf(int _cpf){
+    public void setCpf(String _cpf){
         cpf = _cpf;
     }
     
@@ -30,12 +30,12 @@ public class Meu{
          return sobrenome;
     }
 
-        public int getCpf(){
+        public String getCpf(){
          return cpf;
     }
 
         public void Exibe(){
-        System.out.printf("%s , %s, %d\n",getNome(), getSobrenome(), getCpf());
+        System.out.printf("nome: %s   sobrenome: %s   CPF: %s\n",getNome(), getSobrenome(), getCpf());
     }
 
 }

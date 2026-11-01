@@ -12,7 +12,8 @@ public class Pessoa
 }
     public void DisplayNome()
     {
-    System.out.printf("%s\n", nome);    }
+    System.out.printf("%s\n", nome);   
+    }
 }
 
 public class Aluno extends Pessoa
