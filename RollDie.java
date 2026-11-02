@@ -1,5 +1,6 @@
 // Figura 6.8: RollDie.java
 // Rola um dado de seis lados 6 mil vezes.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:166
 import java.util.Random;
 
 public class RollDie

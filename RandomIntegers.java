@@ -1,5 +1,6 @@
 // Figura 6.7: RandomIntegers.java
 // Inteiros aleatórios deslocados e escalonados.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:165
 import java.util.Random; // o programa utiliza a classe Random
 
 public class RandomIntegers
