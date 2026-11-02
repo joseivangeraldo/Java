@@ -1,3 +1,5 @@
+
+import java.util.Date; // Fixes the Date error
 public class Pessoa
 {
 	public String nome;
@@ -10,13 +12,13 @@ public class Pessoa
 	this.cpf = _cpf;
 	this.data_nascimento = _data;
 }
-    public void DisplayNome()
+    public void Display()
     {
-    System.out.printf("%s\n", nome);   
+    System.out.printf("nome: %s CPF: %s  DATA: %s\n", nome, cpf, data_nascimento);   
     }
 }
 
-public class Aluno extends Pessoa
+class Aluno extends Pessoa
 {
     public Aluno(String _nome, String _cpf, String _data)
     {
@@ -25,7 +27,7 @@ public class Aluno extends Pessoa
     public String matricula;
 }
 
-public class Professor extends Pessoa
+class Professor extends Pessoa
 {
     public Professor(String _nome, String _cpf, String _data)
     {
@@ -35,7 +37,7 @@ public class Professor extends Pessoa
     public String disciplina;
 }
 
-public class Funcionario extends Pessoa
+class Funcionario extends Pessoa
 {
     public Funcionario(String _nome, String _cpf, String _data)
     {
