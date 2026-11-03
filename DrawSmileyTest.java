@@ -1,5 +1,7 @@
 // Figura 6.17: DrawSmileyTest.java
 // Aplicativo de teste que exibe um rosto sorridente.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:177
+
 import javax.swing.JFrame;
 
 public class DrawSmileyTest

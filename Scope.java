@@ -1,3 +1,4 @@
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:172
 public class Scope
 {
     // campo acessível para todos os métodos dessa classe

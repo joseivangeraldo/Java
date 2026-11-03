@@ -1,5 +1,7 @@
 // Figura 6.16: DrawSmiley.java
 // Demonstra formas preenchidas.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:177
+
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;

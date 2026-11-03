@@ -1,5 +1,6 @@
 // Figura 7.2: InitArray.java
 // Inicializando os elementos de um array como valores padrão de zero.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:192
 
 public class InitArray
 {

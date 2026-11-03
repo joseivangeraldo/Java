@@ -1,5 +1,6 @@
 // Figura 6.9: Craps.java
 // A classe Craps simula o jogo de dados craps.
+//Java Como Programar (Paul Deitel Harvey Deitel)-pag:168
 import java.util.Random;
 
 public class Craps
